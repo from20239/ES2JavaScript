@@ -13,7 +13,7 @@ const studentNames2 = students.map((student) => {
   return {
     fullname: `${student.name} ${student.lastname}`,
   };
-});
+})
 
 // An array of JSON objects with students doubled age using arrow function
 const doubleAges = students.map((student) => student.age).map((age) => age * 2);
